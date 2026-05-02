@@ -107,7 +107,7 @@ public class MyHashTable<K, V> {
 
     public int getSize() { return size; }
 
-    /** Prints the number of elements in each bucket. */
+    // Prints the number of elements in each bucket
     public void printBucketSizes() {
         for (int i = 0; i < M; i++) {
             int count = 0;
